@@ -29,6 +29,34 @@ Booking Management: Book, view, and cancel reservations
 
 Price Calculation: Automatic price calculation with taxes and multipliers
 
+# 🔧 Key Features in Detail
+Object-Oriented Design
+Interfaces: Bookable, Displayable for consistent behavior
+
+Inheritance: TravelEntity abstract base class
+
+Polymorphism: Different booking behaviors for each service type
+
+Encapsulation: Secure data access through methods
+
+Database Integration
+ACID Properties: Atomic, Consistent, Isolated, Durable transactions
+
+Normalization: 3NF design to minimize redundancy
+
+Indexing: Optimized queries for better performance
+
+Relationships: Proper foreign key constraints
+
+GUI Features
+Event Handling: Responsive button clicks and user interactions
+
+Data Validation: Input verification and error handling
+
+Table Models: Custom data rendering for travel services
+
+Dialog Management: Confirmation and information dialogs
+
 # User Interface
 Modern GUI: Built with Java Swing
 
@@ -37,6 +65,32 @@ Responsive Design: User-friendly interface
 Data Table: Organized display of travel options
 
 Interactive Controls: Buttons, search, and filters
+
+# Administrative Features
+Dashboard Analytics: Revenue reports and booking statistics
+
+Inventory Management: Add/update flights, hotels, and cars
+
+User Management: Customer profiles and booking history
+
+Reporting: Comprehensive reports and business insights
+
+# Key Tables
+Users: Customer information and authentication
+
+Flights: Flight inventory and schedules
+
+Hotels: Hotel information and room availability
+
+CarRentals: Vehicle inventory and specifications
+
+Bookings: Central booking records
+
+Payments: Financial transactions
+
+Passengers: Flight passenger details
+
+Reviews: Customer feedback and ratings
 
 # 🔧 Technical Architecture
 Interfaces
@@ -118,6 +172,57 @@ Launching the Application
 Run the TravelBookingSystem class
 
 The main window will open with all available travel options
+
+# Using IntelliJ IDEA
+Open IntelliJ IDEA
+
+Select "Open or Import"
+
+Navigate to project directory and select
+
+Configure SDK (JDK 8+)
+
+Run TravelBookingSystem.java
+
+# 🎮 How to Use
+For Customers 👨‍💼
+Registration & Login
+
+Create new account with personal details
+
+Secure login with username/password
+
+Search Services
+
+Enter search criteria (destination, dates, preferences)
+
+Apply filters (price range, ratings, amenities)
+
+Make Booking
+
+Select desired service (flight/hotel/car)
+
+Choose travel dates and specifications
+
+Add passenger details (for flights)
+
+Review pricing and confirm booking
+
+Payment
+
+Select payment method (Credit Card/Debit Card/UPI)
+
+Enter payment details securely
+
+Receive booking confirmation
+
+Manage Bookings
+
+View booking history
+
+Cancel bookings (with refund policy)
+
+Download booking receipts
 
 # Basic Operations
 Viewing Options
@@ -266,5 +371,14 @@ Export booking data
 
 # 📄 License
 This project is created for educational purposes as part of a college project.
+
+# 🙏 Acknowledgments
+Java Swing community for GUI components
+
+MySQL documentation for database guidance
+
+Open-source travel APIs for inspiration
+
+College faculty for project guidance and support
 
 
